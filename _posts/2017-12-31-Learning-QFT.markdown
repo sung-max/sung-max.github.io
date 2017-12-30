@@ -1,7 +1,7 @@
 ---
 title:  "Learning QFT"
 date:   2017-12-31 19:30:44 +0900
-categories: jekyll update
+categories:
 use_math: false
 comments: true
 ---

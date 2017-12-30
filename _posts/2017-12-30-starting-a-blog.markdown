@@ -1,7 +1,7 @@
 ---
 title:  "Starting a Blog"
 date:   2017-12-30 19:30:44 +0900
-categories: jekyll update
+categories:
 use_math: true
 ---
 
@@ -10,7 +10,7 @@ This is it! This is my first [1] blog post.
 I've been playing with the idea maybe since about a month ago [2].
 I thought it would be a good medium to practice my technical writing [3], but also to write down my thoughts somewhere as I realize I forget things more easily now.
 
-They say explaining to others is the best way to learn. Part of that is having an interested audience, and the internet can probably find them easily. 
+They say explaining to others is the best way to learn. Part of that is having an interested audience, and the internet can probably find them easily.
 
 I hope to write about a wide range of technical topics of my interest: mathematics, physics, computer science, statistics, programming, and anything in the mix.
 
