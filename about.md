@@ -3,6 +3,9 @@ title: About
 permalink: /about/
 ---
 
+About
+=======
+
 I am ex-graduate student (currently on leave) in Computer Science. In the past, I tried research in Theoretical Computer Science and Machine Learning.
 More recently, I've been catching up on some pure math and physics I thought I should know.
 
