@@ -3,9 +3,10 @@ title:  "Learning QFT"
 date:   2017-12-31 19:30:44 +0900
 categories: jekyll update
 use_math: true
+comments: true
 ---
 
-I spent the past five months getting familiar with the basics of Quantum Field Theory (QFT). 
+I spent the past five months getting familiar with the basics of Quantum Field Theory (QFT).
 I thought I might write a post to provide some guidance to someone who, like me, have always wanted to understand basics of QFT but have had somewhat
 limited education in college level physics [1].
 
