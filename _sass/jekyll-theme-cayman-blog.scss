@@ -91,7 +91,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: url("../images/banner_home.jpg") center center/cover;
+  background-image: url("../images/banner_home.jpg");
 
   @include large {
     padding: 5rem 6rem;
