@@ -8,4 +8,3 @@
 layout: home
 ---
 
-Writings on mathematics, physics, computer science, statistics, and in between.
