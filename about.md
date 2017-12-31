@@ -4,7 +4,7 @@ title: About
 tagline: 
 permalink: /about/
 ---
-#### Academic
+### Academic
 
 I'm an ex-grad student in Computer Science (currently on leave). 
 
@@ -14,7 +14,7 @@ More recently, I've been catching up on some pure math and physics I thought I s
 
 ------------
 
-#### Personal
+### Personal
 
 I grew up in a tropical island.
 I did my undergrad and masters in the east coast US.
