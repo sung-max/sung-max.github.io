@@ -20,7 +20,7 @@ For the blogging platform, I initially debated between [WordPress][word-press] a
 
 I spent a whole brainstorming for a [clever][in-theory] name, but failed to live up to my own standards. If I get an idea in the future, I'll update.
 
-Getting to my first post took more hours than I had expected or wanted. Despite there being many tutorials out there no single one seemed to do it for me. Maybe I'll write a short post about the steps, but I doubt I'll doubt my tutorial (which is also paritcular to my own experience, given my particular development environment and so on) will help someone given how not quite satisfactory help I got from many similar tutorials out there already.
+Getting to my first post took more hours than I had expected or wanted. Despite there being many tutorials out there no single one seemed to do it for me. Maybe it was my lack of experience with the web but I can't rid the feeling that I just hacked it together. Maybe I'll write a short post about the steps, but I doubt my tutorial (which is also paritcular to my own experience, given my particular development environment and so on) will help someone given how not quite satisfactory help I got from many similar tutorials out there already.
 
 Nonetheless, they have streamlined the process so much now that if you are playing around with the idea of starting a blog and have a free day, you should just give it a go.
 
