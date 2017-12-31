@@ -18,6 +18,8 @@ Being away from school (ironically?) has given me time to rebuild the some of th
 
 Before I proceed, I want to thank [Flip](http://physics.ucr.edu/~flip/), who TA'ed the only physics class I luckily took in undergrad. He's given me very helpful advice in the beginning. Without his encouragement, I don't think I would have gotten to tackling QFT this soon. Thanks, Flip!
 
+[phy3318]: https://www.physics.uci.edu/~tanedo/P3318.html
+
 -------
 
 ### Before QFT
@@ -95,11 +97,24 @@ Here are some books and articles that have helped me along the way.
 
 * [Gauge theories in Particle Physics](https://www.amazon.com/Theories-Particle-Physics-Graduate-Student/dp/0750309822) 
 
-    This books is amazing. Though its depth falls quite short of more traditional texts like Peskin & Schroeder, the writing is extremely lucid. 
+    This books is amazing. Though its depth falls quite short of more traditional texts like Peskin & Schroeder, the writing is extremely lucid. Particularly helpful is Chapter 5, introducing canonical quantization from a physical model, and Chapter 10's overview of renormalization (although for the toy ABC theory), which was by far the clearest and most coherent exposition I came across so far.
     
 
-* *QFT in a Nutshell* Despite the phenomenal reviews this book has, I don't think it's the best book for someone completely new. The raving reviews mostly seem to come from people who already understand QFT (for them, I think it reads more like an insightful overview). But I think it's useful to 
+* [QFT in a Nutshell](https://www.amazon.com/Quantum-Field-Theory-Nutshell-nutshell/dp/0691140340) Despite the phenomenal reviews this book has, I don't think it's the best book for someone completely new. The raving reviews mostly seem to come from people who already understand QFT (for them, I'd imagine it reads more like an insightful overview). But I think it's useful to 
 
+
+
+There are also articles on more focused topics that are helpful:
+
+* [How I Learned to Stop Worrying and Love QFT](https://arxiv.org/abs/1201.2714) 
+
+This is a helpful article that gives some hints of how the extremely shady mathematical hand-waving that physicists routinely do in QFT could be given made more rigorous (though my understanding is that we are still far from giving a completely rigorous treatment of the many issues in QFT). 
+
+There were quite a few gems; one I remember is how the origin of the undetermined coupling constants can be traced back to the ambiguity in defining products of distributions. 
+
+
+
+Any well-known standard books or articles I left out are definitely not due to their lack of quality--I just haven't gotten to them yet myself.
 
 -----
 
@@ -107,6 +122,11 @@ Here's a functional integral to start off:
 $$\int \mathcal{D}[q]e^{i S[q]} $$
 
 ...\[to be continued\]
+--------
+
+### *Updates*
+
+Dec 31, 2017: first version
 
 
-[phy3318]: https://www.physics.uci.edu/~tanedo/P3318.html
+
