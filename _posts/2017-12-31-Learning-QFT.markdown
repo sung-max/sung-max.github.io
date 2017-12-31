@@ -4,6 +4,7 @@ date:   2017-12-31 19:30:44 +0900
 categories:
 use_math: true
 comments: false
+published: false
 ---
 
 I spent the past five months getting familiar with the basics of Quantum Field Theory (QFT).
