@@ -16,13 +16,14 @@ More recently, I've been catching up on some pure math and physics I thought I s
 
 #### Personal
 
-I grew up in a tropical island hating the humidity, then got rewarded with 4pm sunsets and snowstorms in April in the east coast.
+I grew up in a tropical island.
+I did my undergrad and masters in the east coast US.
 
-In my free time I usually move weights around and listen to music from [90s][she's-so-high] and 00's.
-I've grown to like many sports, particular team sports, since going to grad school (kind of late to the game, but yolo).
+In my free time I usually train weights and listen to music from [90s][shes-so-high] and 00's.
+I've grown to like many sports, particular team sports, in the past few years.
 So far I've tried badminton, volleyball, soccer, frisbee, and basketball. 
 
 
 [Go to the Home Page](../)
 
-[she's-so-high] https://www.youtube.com/watch?v=_ElORM9O-0U
+[shes-so-high] https://www.youtube.com/watch?v=_ElORM9O-0U
