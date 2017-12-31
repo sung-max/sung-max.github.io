@@ -81,7 +81,26 @@ Both has its beauty and convenience, but
 
 Here are some books and articles that have helped me along the way.
 
+* [QFT for the Gifted Amateur](https://www.amazon.com/Quantum-Field-Theory-Gifted-Amateur/dp/019969933X)
+    Despite the possibly offputting title, this book is great. They really mean much more than an amateur; the exercises can be quite challenging. 
+    Pros: they cover **a lot** (as can be seen how the book is organized into 50(!!) chapters.
+    Cons: they cover a bit too much. Some depth might have been better than breadth.
 
+
+* [David Tong's QFT lecture notes](http://www.damtp.cam.ac.uk/user/tong/qft.html)
+
+    These are great to read along with another more in-depth book. Despite its brevity, the notes comment on a lot of subtle things that might have troubled elsewhere.
+
+
+* [Gauge theories in Particle Physics](https://www.amazon.com/Theories-Particle-Physics-Graduate-Student/dp/0750309822) 
+
+    This books is amazing. Though its depth falls quite short of more traditional texts like Peskin & Schroeder, the writing is extremely lucid. 
+    
+
+* *QFT in a Nutshell* Despite the phenomenal reviews this book has, I don't think it's the best book for someone completely new. The raving reviews mostly seem to come from people who already understand QFT (for them, I think it reads more like an insightful overview). But I think it's useful to 
+
+
+-----
 
 Here's a functional integral to start off:
 $$\int \mathcal{D}[q]e^{i S[q]} $$
