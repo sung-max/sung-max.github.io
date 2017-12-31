@@ -26,7 +26,7 @@ Nonetheless, they have streamlined the process so much now that if you are playi
 
 ----
 
-[1] Well, I had a website briefly in highschool around that I made mostly as a reference for college apps, but nothing much came of it. Also, someone mostly built the website for me.
+[1] Well, I had sort of a blog briefly in highschool that I made mostly to add to my resume for college apps, but nothing much came of it. 
 
 [2] I've been getting intermittent computer access the past year, and I'm currently on an unusually long vacation *with* unlimited computer access, so I thought I might push myself to do something productive on a computer.
 
