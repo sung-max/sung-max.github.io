@@ -26,4 +26,4 @@ So far I've tried badminton, volleyball, soccer, frisbee, and basketball.
 
 [Go to the Home Page](../)
 
-[shes-so-high] https://www.youtube.com/watch?v=_ElORM9O-0U
+[shes-so-high]: https://www.youtube.com/watch?v=_ElORM9O-0U
