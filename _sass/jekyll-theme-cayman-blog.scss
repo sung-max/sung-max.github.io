@@ -190,17 +190,17 @@ a {
     max-width: 64rem;
     padding: 3rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   @include medium {
     padding: 3rem 4rem;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 
   @include small {
     padding: 2rem 1rem;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 
   img {
