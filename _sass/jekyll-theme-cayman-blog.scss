@@ -106,12 +106,31 @@ a {
   }
 }
 
+.page-header-physics {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: url('/images/feynman.jpg');
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
 
   @include large {
-    font-size: 3.25rem;
+    font-size: 2.75rem;
   }
 
   @include medium {
