@@ -4,6 +4,7 @@ date:   2017-12-31 19:30:44 +0900
 categories:
 use_math: true
 comments: false
+topic: physics
 published: true
 ---
 
@@ -11,7 +12,7 @@ I spent the past five months getting familiar with the basics of Quantum Field T
 I thought I might write a post to provide some guidance to someone who, like me, have always wanted to understand basics of QFT but have had somewhat
 limited education in college level physics.
 
-### Background 
+### Background
 To give more context for my background: I took AP Physics B & C in highschool and one undergraduate physics course on [Classical Mechanics][phy3318], but that is as far as my education in physics has gone inside of class.
 I've always *liked* physics though, and read numerous pop-science books growing up. I liked physics a lot in highschool and I considered double majoring in it in college, but it never happened for a number of reasons.
 Being away from school (ironically?) has given me time to rebuild the some of the missing undergrad foundations and dive into some of the more advanced topics.
@@ -29,7 +30,7 @@ QFT does have a few prerequisites, but it is not as daunting as it may seem (giv
 * **Quantum Mechanics**
 
     You need a solid foundation in undergrad QM. I worked through the entire Griffiths and read most of Sakurai, which seems to be enough so far. You need to be comfortable with the bra-ket notation, different dynamical pictures (Schrodinger, Heisenberg, Interaction), and some basic perturbation theory.
-    
+
 * **Hamiltonian/Lagrangian mechanics**
 
     You need to be familiar with all the basics. This is a fascinating subject on its own.
@@ -44,19 +45,19 @@ QFT does have a few prerequisites, but it is not as daunting as it may seem (giv
     Other than the ones that carry over from undergrad physics (vector calculus, etc.) you need to be comfortable with
     using basic theorems of complex analysis for computations (Cauchy's residue theorem).
     You should be familiar withe Green's functions (typically you first see them in E&M).
-    
+
     Although not necessary, I think it's rewarding to understand the mathematical foundation of distributions (generalized functions), which give more rigorous meaning to objects like dirac delta, which physicists often sloppily deal with.
-    
-    
+
+
 As you can see, that's just about two and a half physics courses (if you were to prepare yourself really thoroughly) and some mathematical background that you can probably even pick up as you go, which I hope doesn't seem as bad as you might have first imagined from a beast like QFT.
-  
-  
+
+
 In particular, you do not need to know the following (though it would certainly help):
 * Electromagnetism
 
     You don't need a full standard undergraduate course on E/M.
     For myself I just skimmed parts of David Tong's lecture notes to fill in on the gaps.
-    
+
 * Classical Field Theory
 
     If you're familiar with Hamiltonian/Lagrangian mechanics for particles the extension to fields is rather straightfoward (though still very amusing)
@@ -75,7 +76,7 @@ If you've learned your QM, you'll know that there's usually two standard approac
 
 In QFT there's also two formulations, but the contrast is a bit wilder. They are called **canonical quantization** and **path integral$$.
 
-Both has its beauty and convenience, but 
+Both has its beauty and convenience, but
 
 
 
@@ -86,8 +87,8 @@ Both has its beauty and convenience, but
 Here are some books and articles that have helped me along the way.
 
 * [QFT for the Gifted Amateur](https://www.amazon.com/Quantum-Field-Theory-Gifted-Amateur/dp/019969933X)
-    
-     Despite the possibly offputting title, this book is great. They really mean much more than an amateur; the exercises can be quite challenging. 
+
+     Despite the possibly offputting title, this book is great. They really mean much more than an amateur; the exercises can be quite challenging.
     Pros: they cover a lot (as can be seen how the book is organized into 50(!!) chapters.
     Cons: they cover a bit too much. Some depth might have been better than breadth.
 
@@ -97,24 +98,24 @@ Here are some books and articles that have helped me along the way.
     These are great to read along with another more in-depth book. Despite its brevity, the notes comment on a lot of subtle things that might have troubled elsewhere.
 
 
-* [Gauge theories in Particle Physics](https://www.amazon.com/Theories-Particle-Physics-Graduate-Student/dp/0750309822) 
+* [Gauge theories in Particle Physics](https://www.amazon.com/Theories-Particle-Physics-Graduate-Student/dp/0750309822)
 
     This books is amazing. Though its depth falls quite short of more traditional texts like Peskin & Schroeder, the writing is extremely lucid. Particularly helpful is Chapter 5, introducing canonical quantization from a physical model, and Chapter 10's overview of renormalization (although for the toy ABC theory), which was by far the clearest and most coherent exposition I came across so far.
-    
 
-* [QFT in a Nutshell](https://www.amazon.com/Quantum-Field-Theory-Nutshell-nutshell/dp/0691140340) 
 
-   Despite the phenomenal reviews this book has, I don't think it's the best book for someone completely new. The raving reviews mostly seem to come from people who already understand QFT (for them, I'd imagine it reads more like an insightful overview). But I think it's useful to 
+* [QFT in a Nutshell](https://www.amazon.com/Quantum-Field-Theory-Nutshell-nutshell/dp/0691140340)
+
+   Despite the phenomenal reviews this book has, I don't think it's the best book for someone completely new. The raving reviews mostly seem to come from people who already understand QFT (for them, I'd imagine it reads more like an insightful overview). But I think it's useful to
 
 
 
 There are also articles on more focused topics that are helpful:
 
-* [How I Learned to Stop Worrying and Love QFT](https://arxiv.org/abs/1201.2714) 
+* [How I Learned to Stop Worrying and Love QFT](https://arxiv.org/abs/1201.2714)
 
-   This is a helpful article that gives some hints of how the extremely shady mathematical hand-waving that physicists routinely do in QFT could be given made more rigorous (though my understanding is that we are still far from giving a completely rigorous treatment of the many issues in QFT). 
+   This is a helpful article that gives some hints of how the extremely shady mathematical hand-waving that physicists routinely do in QFT could be given made more rigorous (though my understanding is that we are still far from giving a completely rigorous treatment of the many issues in QFT).
 
-There were quite a few gems; one I remember is how the origin of the undetermined coupling constants can be traced back to the ambiguity in defining products of distributions. 
+There were quite a few gems; one I remember is how the origin of the undetermined coupling constants can be traced back to the ambiguity in defining products of distributions.
 
 
 
