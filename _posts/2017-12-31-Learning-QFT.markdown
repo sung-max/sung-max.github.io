@@ -8,6 +8,7 @@ comments: true
 topic: physics
 published: true
 uid: 20171231
+header-image: page-header-feynman
 ---
 
 I spent the past five months getting familiar with the basics of Quantum Field Theory (QFT).
