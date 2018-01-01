@@ -44,7 +44,7 @@ QFT does have a few prerequisites, but it is not as daunting as it may seem (giv
 
     Other than the ones that carry over from undergrad physics (vector calculus, etc.) you need to be comfortable with
     using basic theorems of complex analysis for computations (e.g. Cauchy's residue theorem).
-    You should be familiar withe Green's functions (typically you first see them in E&M).
+    You should be familiar with Green's functions (typically you first see them in E&M).
 
     Although not necessary, I think it's rewarding to understand the mathematical foundation of distributions (generalized functions), which give more rigorous meaning to objects like dirac delta, which physicists often sloppily deal with.
 
