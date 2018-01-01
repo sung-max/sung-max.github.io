@@ -4,6 +4,8 @@ date:   2017-12-30 19:30:44 +0900
 categories:
 use_math: true
 layout: post
+comments: true
+uid: 20171230
 ---
 
 This is it! This is my first [1] blog post.
@@ -27,7 +29,7 @@ Nonetheless, they have streamlined the process so much now that if you are playi
 
 ----
 
-[1] Well, I had sort of a blog briefly in highschool that I made mostly to add to my resume for college apps, but nothing much came of it. 
+[1] Well, I had sort of a blog briefly in highschool that I made mostly to add to my resume for college apps, but nothing much came of it.
 
 [2] I've been getting intermittent computer access the past year, and I'm currently on an unusually long vacation *with* unlimited computer access, so I thought I might push myself to do something productive on a computer.
 

@@ -3,9 +3,10 @@ title:  "Learning QFT"
 date:   2017-12-31 19:30:44 +0900
 categories:
 use_math: true
-comments: false
+comments: true
 topic: physics
 published: true
+uid: 20171231
 ---
 
 I spent the past five months getting familiar with the basics of Quantum Field Theory (QFT).
@@ -87,7 +88,7 @@ Here are some books and articles that have helped me along the way.
 * [QFT for the Gifted Amateur](https://www.amazon.com/Quantum-Field-Theory-Gifted-Amateur/dp/019969933X)
 
      Despite the possibly offputting title, this book is great. They really mean much more than an amateur; the exercises can be quite challenging.
-    * Pros: they cover a lot (the book has 50 chapters, though each one is very short), and cover many prerequisites along the way. 
+    * Pros: they cover a lot (the book has 50 chapters, though each one is very short), and cover many prerequisites along the way.
     * Cons: they cover a bit too much. Some depth might have been better than breadth. Bit childish at times.
 
 
@@ -103,7 +104,7 @@ Here are some books and articles that have helped me along the way.
 
 * [QFT in a Nutshell](https://www.amazon.com/Quantum-Field-Theory-Nutshell-nutshell/dp/0691140340)
 
-   Despite the phenomenal reviews this book has, I don't think it's the best book for someone completely new. The raving reviews mostly seem to come from people who already understand QFT (for them, I'd imagine it reads more like an insightful overview). But I think it's useful for getting a highlevel refresher after you've read a topic elsewhere. 
+   Despite the phenomenal reviews this book has, I don't think it's the best book for someone completely new. The raving reviews mostly seem to come from people who already understand QFT (for them, I'd imagine it reads more like an insightful overview). But I think it's useful for getting a highlevel refresher after you've read a topic elsewhere.
 
 
 
