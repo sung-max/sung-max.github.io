@@ -3,6 +3,7 @@ title:  "Starting a Blog"
 date:   2017-12-30 19:30:44 +0900
 categories:
 use_math: true
+layout: post
 ---
 
 This is it! This is my first [1] blog post.
