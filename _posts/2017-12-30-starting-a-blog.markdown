@@ -19,13 +19,15 @@ I hope to write about a wide range of technical topics of my interest: mathemati
 
 ---------
 
-For the blogging platform, I initially debated between [WordPress][word-press] and what I ended up with. So far, I'm happy that I'm able to directly write my posts in [Markdown][markdown] online on Github.
+For the blogging platform, I initially debated between [WordPress][word-press] and what I ended up with (Jekyll plus Github pages). So far, I'm very happy its simplicity--particularly that I can directly write my posts in [Markdown][markdown] online on Github.
+
+Getting to my first post took more hours than I had expected Despite there being many tutorials out there no single one seemed to do answer everything I needed. Maybe it was my lack of experience with the web but I felt like I hacked it together by copy-pasting a bunch of times. Maybe I'll write a short post about the steps, but there are many similar tutorials out there already.
+
+Nonetheless, they have streamlined the process so much now that if you are playing around with the idea of starting a blog and have a bit of free time, you should give it a go.
+
+*Update (1/1/2018)*: I have a slightly better understanding of how Jekyll works now, and cleaned up the code a bit. This is pretty cool!
 
 I spent a whole brainstorming for a [clever][in-theory] name, but failed to live up to my own standards. If I get an idea in the future, I'll update.
-
-Getting to my first post took more hours than I had expected or wanted. Despite there being many tutorials out there no single one seemed to do it for me. Maybe it was my lack of experience with the web but I can't rid the feeling that I just hacked it together. Maybe I'll write a short post about the steps, but I doubt my tutorial (which is also paritcular to my own experience, given my particular development environment and so on) will help someone given how not quite satisfactory help I got from many similar tutorials out there already.
-
-Nonetheless, they have streamlined the process so much now that if you are playing around with the idea of starting a blog and have a free day, you should just give it a go.
 
 ----
 
