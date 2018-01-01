@@ -17,7 +17,7 @@ To give more context for my background: I took AP Physics B & C in highschool an
 I've always *liked* physics though, and read numerous pop-science books growing up. I liked physics a lot in highschool and I considered double majoring in it in college, but it never happened for a number of reasons.
 Being away from school (ironically?) has given me time to rebuild the some of the missing undergrad foundations and dive into some of the more advanced topics.
 
-Before I proceed, I want to thank [Flip](http://physics.ucr.edu/~flip/), who TA'ed the only physics class I luckily took in undergrad. He's given me very helpful advice in the beginning. Without his encouragement, I don't think I would have gotten to tackling QFT this soon. Thanks, Flip!
+Before I proceed, I want to thank [Flip](http://physics.ucr.edu/~flip/), who luckily TA'ed the only physics class I took in undergrad. He's given me very helpful advice in the beginning. Without his encouragement, I don't think I would have gotten to tackling QFT this soon. Thanks, Flip!
 
 [phy3318]: https://www.physics.uci.edu/~tanedo/P3318.html
 
