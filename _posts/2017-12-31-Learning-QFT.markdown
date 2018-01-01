@@ -5,10 +5,10 @@ date:   2017-12-31 19:30:44 +0900
 categories: physics
 use_math: true
 comments: true
-topic: physics
 published: true
 uid: 20171231
 header-image: page-header-feynman
+permalink: /learning-qft/
 ---
 
 I spent the past five months getting familiar with the basics of Quantum Field Theory (QFT).
