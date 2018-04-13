@@ -10,20 +10,23 @@ uid: 20180413
 permalink: /GCJ-2018-QR-commentary
 ---
 
+## Intro
+
 I've been participating in Google Code Jam on and off for the past 7 years. It's probably my favorite among similar competitions; 
-everything about it feels very clean and professional, from the UI to the statement of the problems. I also particularly like the separation between small and larget inputs.
+everything about it feels very clean and professional, from the UI to the clean solutions that are possible. I also particularly like the separation between small and larget inputs.
 
 Despite being physicially limited this year (I didn't have access to my own computer or local storage), 
 I ended up participating in the qualification round as the new interface
-made it much easier for me to participate from my base. Overhearing some of my bunkmates discussing the problems made me curious too.
+made it much easier for me to participate from my army base. Overhearing some of my bunkmates discussing the problems made me curious too.
+-------
 
-I'm not sure this post will benefit anyone much so this is more for my own sake of writing down my thoughts.
+## Overview
 
-### Overview
+Here are the names of the four problems from this year's Qualification Round, which happend on April 7:
 
 * **Saving the Universe, Again**
 
-  Feels like a typical greedy problem (gives me a de ja vu, almost). I think there is a linear time solution, but I couldn't motivate myself 
+  A typical greedy problem (feels like de ja vu, almost). There is also a linear time solution, but I couldn't motivate myself 
   to implement it.
 
 * **Trouble Sort**
@@ -37,7 +40,7 @@ I'm not sure this post will benefit anyone much so this is more for my own sake 
 
 * **Cubic UFO**
 
-  A nice #D geometry problem that could be approached in a few ways. 
+  A nice 3D geometry problem that could be approached in a few ways. 
 
 
 Here's a [link](https://codejam.withgoogle.com/2018/challenges) to all the rounds from this year's competition.
@@ -47,7 +50,7 @@ Below I will give some commentary and analysis on the last two problems.
 
 -------
 
-### Go, Gopher!
+## Go, Gopher!
 
 Probably anyone could think of the following straightforward approach: just pick a target area of 200 (I picked a stripe of dimensions 3 x 67),
 divide it into 3x3 squares, and target the centers of every square until each square is completely filled.
@@ -59,7 +62,7 @@ is an interesting one. This reminds of some of the research in learning theory a
 where often we care about number of samples as well as the time complexity.
 So I think from a larger perspective the new type of problem is fitting given the current trends in academia.
 
-#### Analysis
+### Analysis
 We could treat filling all 9 cells of each square as a [Coupon collector's problem](https://en.wikipedia.org/wiki/Coupon_collector%27s_problem).
 We get an estimate of the tail probability of failure as (using the tail estimate in the above link):
 
@@ -75,7 +78,7 @@ But it was nice to see with my own eyes that concentration of measure has more u
 mainly helping me proceed to the next round of GCJ.
 
 
-#### Alternatives?
+### Alternatives?
 
 When using the above stripe, we can also query all of the middle 1x65 segment instead of segregating into separate grid cells and querying each one.
 At first this seems like a dumb,  redundant thing to do, but then I wondered if there's much to lose since each query point will be satisfied (which I define to be if all of its neighbors are filled)
@@ -89,7 +92,7 @@ What about in higher dimensions?
 
 --------
 
-### Cubic UFO
+## Cubic UFO
 
 I figured that intuitively the area of the shadow is maximized when its projection is a regular hexagon.
 If so, it would be enough to rotate only using one axis (though some initial rotation makes it easier to work with
@@ -115,8 +118,6 @@ In the official commentary, a reference is made to the "amazing cube shadow theo
  
 Now what's great is one can take advantage of the above proof to also derive a constant time solution. 
 I'm lazy so I'll leave that as an exercise to the reader.
-
-
 
 
 
