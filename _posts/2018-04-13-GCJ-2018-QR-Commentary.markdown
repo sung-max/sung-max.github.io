@@ -64,7 +64,7 @@ So I think from a larger perspective the new type of problem is fitting given ou
 ### Analysis
 We could treat filling all 9 cells of each square as a [Coupon collector's problem](https://en.wikipedia.org/wiki/Coupon_collector%27s_problem).
 We get an estimate of the tail probability on the number of required queries $$T$$ to fill a 3x3 square (using the tail estimate in the above link with $$n=9$$): 
-$$Pr(T \gt 20 \beta) \le 9^{-\beta+1)$$
+$$Pr(T \gt 20 \beta) \le 9^{-\beta+1}$$
 
 Unfortunately, this seems way too low and I was certain that this approach would fail.
 But after I wrote a script and ran the simulations, the queries were concentrating very well around about 550!
@@ -111,7 +111,7 @@ and projecting out the $$y$$. Let the normal be $$(u_x, u_y, u_z)$$.
 * So our goal is the maximmize this quantity subject to the $$u_x^2 + u_y^2 + u_z^2 \le 1$$.
  Via Cauchy-Schwartz, we can easily see that the maximum area achieved is $$\sqrt{3}$$ when $$|u_x| = |u_y| = |u_z|$$, which is exactly when the projection is symmetric.
  
-In the official commentary, a reference is made to the "amazing cube shadow theorem," which I understood as saying that when the side length of the cube is 1 (in some unit), the orthogonal height of the rotated cube is the same as its projected area (we're comparing lengths and areas here, hence the need for normalization in unit). This seems like a mystery but using similar calculations as above one can show that indeed the two quantities are computing the same quantity, $$|u_x| + |u_y| + |u_z|$$ (after appropriate rotation).
+In the official commentary, a reference is made to the "amazing cube shadow theorem," which I understood as saying that when the side length of the cube is 1 (in some unit), the orthogonal height of the rotated cube is the same as its projected area (we're comparing lengths and areas here, hence the need for normalization in unit). This seems like a mystery but using similar calculations as above one can show that indeed the two physical quantities are computing the same mathematical quantity, $$|u_x| + |u_y| + |u_z|$$ (after appropriate rotation).
  So no mystery.
  
  
