@@ -63,9 +63,7 @@ So I think from a larger perspective the new type of problem is fitting given ou
 
 ### Analysis
 We could treat filling all 9 cells of each square as a [Coupon collector's problem](https://en.wikipedia.org/wiki/Coupon_collector%27s_problem).
-We get an estimate of the tail probability on the number of required queries to fill a 3x3 square (using the tail estimate in the above link with $$n=9$$):
-
- $$P(T > 20 \beta) \le 9^{-\beta+1)$$
+We get an estimate of the tail probability on the number of required queries $$T$$ to fill a 3x3 square (using the tail estimate in the above link with $$n=9$$): $$Pr(T > 20 \beta) \le 9^{-\beta+1)$$
 
 Unfortunately, this seems way too low and I was certain that this approach would fail.
 But after I wrote a script and ran the simulations, the queries were concentrating very well around about 550!
@@ -96,13 +94,13 @@ What about in higher dimensions?
 I figured that intuitively the area of the shadow is maximized when its projection is a regular hexagon.
 If so, it would be enough to rotate only using one axis (though some initial rotation makes it easier to work with
 standard basis). I did calculations with some trig and 2d rotations and in fact the projected reached the maximum area of $$\sqrt{3}$$ on WolfamAlpha,
-but I wasn't satisfied. Surely there was a more intuitive justification using symmetry or something of the sort.
+but I wasn't satisfied. Surely there was a more intuitive justification using symmetry or something of the sort?
 
-I had the pleasure to hear my bunkmate Jongwon's cute proof. I wasn't able to find anything similar in the official commentary or elsewhere online so far,
+I was delighed with the following cute proof from my bunkmate Jongwon. I wasn't able to find anything similar in the official commentary or elsewhere online so far,
 so I decided to share it with all of you:
 
-* First, observe we can think of choosing a plane (which is specificed by its unit normal, any direction in 3d) to project against, rather than rotating the cube
-and projecting out the y. Let the normal be $$(u_x, u_y, u_z)$$.
+* First, observe we can think of choosing a plane (which is specificed by its unit normal, or any direction in 3d) to project against, rather than rotating the cube
+and projecting out the $$y$$. Let the normal be $$(u_x, u_y, u_z)$$.
 
 * Also, observe that the area of projection of a single side of the cube is the (absolute value of) the cosine of the angle its normal makes with the normal of the projection plane. Assuming normalization, then the area is just the inner product between the two normals.
   Then, it's not hard to see that the area of projection of the cube is exactly the sum of the absolute value of the inner prouctts between the projection plane normal and each of the normals of three orthogonal sides of the cube.
