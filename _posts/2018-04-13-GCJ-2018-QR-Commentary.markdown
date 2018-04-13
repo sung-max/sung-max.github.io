@@ -7,10 +7,8 @@ use_math: true
 comments: true
 published: true
 uid: 20180413
-permalink: /GCJ-2018-QR-commentary
+permalink: /coupons-and-cubes
 ---
-
-## Intro
 
 I've been participating in Google Code Jam on and off for the past 7 years. It's probably my favorite among similar competitions; 
 everything about it feels very clean and professional, from the UI to the clean solutions that are possible. I also particularly like the separation between small and larget inputs.
@@ -18,6 +16,7 @@ everything about it feels very clean and professional, from the UI to the clean 
 Despite being physicially limited this year (I didn't have access to my own computer or local storage), 
 I ended up participating in the qualification round as the new interface
 made it much easier for me to participate from my army base. Overhearing some of my bunkmates discussing the problems made me curious too.
+
 -------
 
 ## Overview
