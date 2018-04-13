@@ -107,7 +107,7 @@ and projecting out the y. Let the normal be $$(u_x, u_y, u_z)$$.
 * Also, observe that the area of projection of a single side of the cube is the (absolute value of) the cosine of the angle its normal makes with the normal of the projection plane. Assuming normalization, then the area is just the inner product between the two normals.
   Then, it's not hard to see that the area of projection of the cube is exactly the sum of the absolute value of the inner prouctts between the projection plane normal and each of the normals of three orthogonal sides of the cube.
   
-* Now, it's nice working with the dual perspecting of rotation the projection plane, because the three normals of the cube remain fixed at the standard basis: $$(1,0,0), (0,1,0), and (0,0,1)$$. Hence, the area of the cube's projection is just
+* Now, it's nice working with the dual perspecting of rotation the projection plane, because the three normals of the cube remain fixed at the standard basis: $$(1,0,0), (0,1,0),$$ and $$(0,0,1)$$. Hence, the area of the cube's projection is just
  $$|u_x| + |u_y| + |u_z|$$. So our goal is the maximmize this quantity subject to the $$u_x^2 + u_y^2 + u_z^2 \le 1$$.
  Via Cauchy-Schwartz, we can easily see that the maximum area achieved is $$\sqrt{3}$$ when $$u_x = u_y = u_z$$, which is exactly when the projection is symmetric.
  
