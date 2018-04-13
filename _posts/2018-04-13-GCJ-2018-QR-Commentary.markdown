@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Collecting coupons and Projecting Cubes"
-date:   2017-12-31 19:30:44 +0900
-categories: programming
+date:   2018-04-31\\13 19:30:00 +0900
+categories: programming, math
 use_math: true
 comments: true
 published: true
