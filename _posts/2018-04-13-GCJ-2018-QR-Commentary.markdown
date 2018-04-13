@@ -51,13 +51,13 @@ Below I will give some commentary and analysis on the last two problems.
 
 ## Go, Gopher!
 
-Probably anyone could think of the following straightforward approach: just pick a target area of 200 (I picked a stripe of dimensions 3 x 67),
-divide it into 3x3 squares, and target the centers of every square until each square is completely filled.
+Probably anyone could think of the following straightforward approach: just pick a target area of at least 200 (I picked a stripe of dimensions 3 x 67),
+divide it into squares of 3x3 cells, and target the centers of every square until each square is completely filled.
 
 The only questions is, can we do this efficiently using less than 1000 queries?
 
-I think the new limit on the number of queries rather than on computation time (there is a limit on time too, but surely the one one quries is more stringent)
-is an interesting one. This reminds of some of the research in learning theory and high dimensional statistics in grad school, 
+I think the new limit on the number of queries rather than on computation time is a very interesting one (there is a limit on time too, but surely the one on quries is more stringent).
+This reminds of some of the research in learning theory and high dimensional statistics in grad school, 
 where often we care about number of samples as well as the time complexity.
 So I think from a larger perspective the new type of problem is fitting given the current trends in academia.
 
