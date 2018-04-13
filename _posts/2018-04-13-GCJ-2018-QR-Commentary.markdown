@@ -102,11 +102,12 @@ so I decided to share it with all of you:
 * First, observe we can think of choosing a plane (which is specificed by its unit normal, or any direction in 3d) to project against, rather than rotating the cube
 and projecting out the $$y$$. Let the normal be $$(u_x, u_y, u_z)$$.
 
-* Also, observe that the area of projection of a single side of the cube is the (absolute value of) the cosine of the angle its normal makes with the normal of the projection plane. Assuming normalization, then the area is just the inner product between the two normals.
-  Then, it's not hard to see that the area of projection of the cube is exactly the sum of the absolute value of the inner prouctts between the projection plane normal and each of the normals of three orthogonal sides of the cube.
+* Also, observe that the area of projection of a single side of the cube is the (absolute value of) the cosine of the angle its normal makes with the normal of the projection plane. Assuming normalization, then the area is just the absolute value of the inner product between the two normals.
+  Then, it's not hard to see that the area of projection of the cube is exactly the sum of the absolute value of the inner products between the projection plane normal and each of the normals of three orthogonal sides of the cube.
   
-* Now, it's nice working with the dual perspecting of rotation the projection plane, because the three normals of the cube remain fixed at the standard basis: $$(1,0,0), (0,1,0),$$ and $$(0,0,1)$$. Hence, the area of the cube's projection is just
- $$|u_x| + |u_y| + |u_z|$$. So our goal is the maximmize this quantity subject to the $$u_x^2 + u_y^2 + u_z^2 \le 1$$.
+* Now, it's nice working with the dual perspective of rotating the projection plane rather than the cube, because the three normals of the cube remain fixed at the standard basis: $$(1,0,0), (0,1,0),$$ and $$(0,0,1)$$. Hence, from above, the area of the cube's projection is just $$|u_x| + |u_y| + |u_z|$$. 
+ 
+* So our goal is the maximmize this quantity subject to the $$u_x^2 + u_y^2 + u_z^2 \le 1$$.
  Via Cauchy-Schwartz, we can easily see that the maximum area achieved is $$\sqrt{3}$$ when $$u_x = u_y = u_z$$, which is exactly when the projection is symmetric.
  
 In the official commentary, a reference is made to the "amazing cube shadow theorem," which I understood as saying that when the side length of the cube is 1 (in some unit), the orthogonal height of the rotated cube is the same as its projected area (we're comparing lengths and areas here, hence the need for normalization in unit). This seems like a mystery but using similar calculations as above one can show that indeed the two quantities are computing the same quantity, $$|u_x| + |u_y| + |u_z|$$ (after appropriate rotation).
