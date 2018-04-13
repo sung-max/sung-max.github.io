@@ -65,7 +65,7 @@ So I think from a larger perspective the new type of problem is fitting given ou
 We could treat filling all 9 cells of each square as a [Coupon collector's problem](https://en.wikipedia.org/wiki/Coupon_collector%27s_problem).
 We get an estimate of the tail probability on the number of required queries to fill a 3x3 square (using the tail estimate in the above link with $$n=9$$):
 
- $$Pr (T > 20 \beta) \le 9^{-\beta+1)$$
+ $$P(T > 20 \beta) \le 9^{-\beta+1)$$
 
 Unfortunately, this seems way too low and I was certain that this approach would fail.
 But after I wrote a script and ran the simulations, the queries were concentrating very well around about 550!
@@ -82,7 +82,7 @@ mainly helping me proceed to the next round of GCJ : )
 When using the above stripe, we can also query all of the middle 1x65 segment instead of segregating into separate grid cells and querying each one.
 At first this seems like a dumb,  redundant thing to do, but then I wondered if there's much to lose since each query point will be satisfied (which I define to be if all of its neighbors are filled)
 more easily so we can move on more faster. 
-But this seems like a much more complicated scenario to analyze. In simlutions, it does worse, concentrating around about 650 queries.
+But this seems like a much more complicated scenario to analyze due to all the dependnecies between neighboring queries. In simlutions, it does worse, concentrating around about 650 queries.
 
 
 I wonder if more efficient alternatives are possible.
