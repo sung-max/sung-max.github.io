@@ -65,7 +65,7 @@ So I think from a larger perspective the new type of problem is fitting given th
 We could treat filling all 9 cells of each square as a [Coupon collector's problem](https://en.wikipedia.org/wiki/Coupon_collector%27s_problem).
 We get an estimate of the tail probability of failure as (using the tail estimate in the above link):
 
-$$ Pr (T > 20 \beta) \le 9^{-\beta+1)$$
+ $$Pr (T > 20 \beta) \le 9^{-\beta+1)$$
 
 Unfortunately this seems way too low and I was certain that this approach would fail.
 But after I wrote a script and ran the simulations, the queries were concentrating very well around about 550!
