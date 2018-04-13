@@ -59,15 +59,15 @@ The only questions is, can we do this efficiently using less than 1000 queries?
 I think the new limit on the number of queries rather than on computation time is a very interesting one (there is a limit on time too, but surely the one on quries is more stringent).
 This reminds of some of the research in learning theory and high dimensional statistics in grad school, 
 where often we care about number of samples as well as the time complexity.
-So I think from a larger perspective the new type of problem is fitting given the current trends in academia.
+So I think from a larger perspective the new type of problem is fitting given our current perspective on computer science and learning at large.
 
 ### Analysis
 We could treat filling all 9 cells of each square as a [Coupon collector's problem](https://en.wikipedia.org/wiki/Coupon_collector%27s_problem).
-We get an estimate of the tail probability of failure as (using the tail estimate in the above link):
+We get an estimate of the tail probability on the number of required queries to fill a 3x3 square (using the tail estimate in the above link with $$n=9$$):
 
  $$Pr (T > 20 \beta) \le 9^{-\beta+1)$$
 
-Unfortunately this seems way too low and I was certain that this approach would fail.
+Unfortunately, this seems way too low and I was certain that this approach would fail.
 But after I wrote a script and ran the simulations, the queries were concentrating very well around about 550!
 I had forgotten to take into account of the fact that each coupon collection problem is independent and they add up to
 something that concentrates very nicely.
