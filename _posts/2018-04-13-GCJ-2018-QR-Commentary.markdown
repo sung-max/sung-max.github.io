@@ -72,9 +72,9 @@ But after I wrote a script and ran the simulations, the queries were concentrati
 I had forgotten to take into account of the fact that each coupon collection problem is independent and they add up to
 something that concentrates very nicely.
 
-Despie having thought about more complicated instances of concentration of measure, I had failed to take notice of it in this simple setting.
+Despite having thought about more complicated instances of concentration of measure, I had failed to take notice of it in this simple setting.
 But it was nice to see with my own eyes that concentration of measure has more use besides proving theorems that can go up on arxiv,
-mainly helping me proceed to the next round of GCJ.
+mainly helping me proceed to the next round of GCJ : )
 
 
 ### Alternatives?
