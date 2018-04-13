@@ -109,7 +109,7 @@ and projecting out the $$y$$. Let the normal be $$(u_x, u_y, u_z)$$.
 * Now, it's nice working with the dual perspective of rotating the projection plane rather than the cube, because the three normals of the cube remain fixed at the standard basis: $$(1,0,0), (0,1,0),$$ and $$(0,0,1)$$. Hence, from above, the area of the cube's projection is just $$|u_x| + |u_y| + |u_z|$$. 
  
 * So our goal is the maximmize this quantity subject to the $$u_x^2 + u_y^2 + u_z^2 \le 1$$.
- Via Cauchy-Schwartz, we can easily see that the maximum area achieved is $$\sqrt{3}$$ when $$u_x = u_y = u_z$$, which is exactly when the projection is symmetric.
+ Via Cauchy-Schwartz, we can easily see that the maximum area achieved is $$\sqrt{3}$$ when $$|u_x| = |u_y| = |u_z|$$, which is exactly when the projection is symmetric.
  
 In the official commentary, a reference is made to the "amazing cube shadow theorem," which I understood as saying that when the side length of the cube is 1 (in some unit), the orthogonal height of the rotated cube is the same as its projected area (we're comparing lengths and areas here, hence the need for normalization in unit). This seems like a mystery but using similar calculations as above one can show that indeed the two quantities are computing the same quantity, $$|u_x| + |u_y| + |u_z|$$ (after appropriate rotation).
  So no mystery.
