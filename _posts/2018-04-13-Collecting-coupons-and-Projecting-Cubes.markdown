@@ -11,7 +11,7 @@ permalink: /coupons-and-cubes
 ---
 
 I've been participating in Google Code Jam on and off for the past 7 years. It's probably my favorite among similar competitions; 
-everything about it feels very clean and professional, from the UI to the clean solutions that are possible. I also particularly like the separation between [Small and Large](https://plus.google.com/+LifeatGoogle/posts/FqAEpWfvMDh) inputs
+everything about it feels very clean and professional, from the UI to the clean solutions that are possible. I also particularly like the separation between [Small and Large](https://plus.google.com/+LifeatGoogle/posts/FqAEpWfvMDh) inputs.
 
 Despite being physicially limited this year (I didn't have access to my own computer or local storage), 
 I ended up participating in the qualification round as the new interface
@@ -97,7 +97,7 @@ If so, it would be enough to rotate only using one axis (though some initial rot
 standard basis). I did calculations with some trig and 2d rotations and in fact the projected reached the maximum area of $$\sqrt{3}$$ on WolfamAlpha,
 but I wasn't satisfied. Surely there was a more intuitive justification using symmetry or something of the sort?
 
-I was delighed with the following cute proof from my bunkmate Jongwon. I wasn't able to find anything similar in the official commentary or elsewhere online so far,
+I was delighted with the following cute proof from my bunkmate Jongwon. I wasn't able to find anything similar in the official commentary or elsewhere online so far,
 so I decided to share it with all of you:
 
 * First, observe we can think of choosing a plane (which is specificed by its unit normal, or any direction in 3d) to project against, rather than rotating the cube
