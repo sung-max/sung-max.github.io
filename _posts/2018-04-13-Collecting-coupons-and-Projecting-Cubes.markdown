@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Collecting coupons and Projecting Cubes"
+title:  "Collecting Coupons and Projecting Cubes"
 date:   2018-04-13 19:30:00 +0900
 categories: programming, math
 use_math: true
@@ -25,12 +25,12 @@ Here are the names of the four problems from this year's Qualification Round, wh
 
 * **Saving the Universe, Again**
 
-  A typical greedy problem (feels like de ja vu, almost). There is also a linear time solution, but I couldn't motivate myself 
+  A typical greedy problem. There is also a linear time solution, but I couldn't motivate myself 
   to implement it.
 
 * **Trouble Sort**
 
-  A very cute problem. Would recommend.
+  A cute problem. Would recommend.
 
 * **Go, Gopher!**
 
