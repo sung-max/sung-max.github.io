@@ -11,7 +11,7 @@ permalink: /coupons-and-cubes
 ---
 
 I've been participating in Google Code Jam on and off for the past 7 years. It's probably my favorite among similar competitions; 
-everything about it feels very clean and professional, from the UI to the clean solutions that are possible. I also particularly like the separation between small and larget inputs.
+everything about it feels very clean and professional, from the UI to the clean solutions that are possible. I also particularly like the separation between [Small and Large](https://plus.google.com/+LifeatGoogle/posts/FqAEpWfvMDh) inputs
 
 Despite being physicially limited this year (I didn't have access to my own computer or local storage), 
 I ended up participating in the qualification round as the new interface
@@ -63,7 +63,8 @@ So I think from a larger perspective the new type of problem is fitting given ou
 
 ### Analysis
 We could treat filling all 9 cells of each square as a [Coupon collector's problem](https://en.wikipedia.org/wiki/Coupon_collector%27s_problem).
-We get an estimate of the tail probability on the number of required queries $$T$$ to fill a 3x3 square (using the tail estimate in the above link with $$n=9$$): $$\text{Pr}(T \gt 20 \beta) \le 9^{-\beta+1}$$ for any $$\beta > 0$$
+We get an estimate of the tail probability on the number of required queries $$T$$ to fill a 3x3 square (using the tail estimate in the above link with $$n=9$$): 
+  \begin{align} \text{Pr}(T \gt 20 \beta) \le 9^{-\beta+1}\text{ for any } \beta > 0 \end{align}
 
 Unfortunately, this seems way too low and I was certain that this approach would fail.
 But after I wrote a script and ran the simulations, the queries were concentrating very well around about 550!
