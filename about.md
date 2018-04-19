@@ -9,8 +9,10 @@ permalink: /about/
 I'm a grad student in Computer Science, currently on leave.
 
 In the past, I tried research in Theoretical Computer Science and Machine Learning.
-More recently, I've been catching up on some pure math and physics I thought I should understand before I get too old.
 
+My favorite language right now is probably Python.
+
+I also like learning mathematics and physics, but it's getting more and more difficult to keep up with all my interests..
 
 ------------
 
@@ -20,7 +22,7 @@ I grew up in Seoul and Singapore.
 I did my undergrad at Cornell in the beautiful city of Ithaca.
 
 In my free time I usually train weights and listen to music from [90s][shes-so-high] and 00's.
-Though I was far from physically active in my younger years, I've enjoyed many sports in the past few years, particularly team sports. So far I've tried badminton, volleyball, soccer, frisbee, and basketball. 
+Though I was far from physically active in my younger years, I discovered how fun they are these past few years, particularly team sports. So far I've tried badminton, volleyball, soccer, frisbee, and basketball. 
 
 
 [Go to the Home Page](../)
