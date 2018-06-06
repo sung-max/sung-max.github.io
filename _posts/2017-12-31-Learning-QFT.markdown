@@ -49,10 +49,10 @@ QFT does have a few prerequisites, but it is not as daunting as it may seem (giv
     using basic theorems of complex analysis for computations (e.g. Cauchy's residue theorem).
     You should be familiar with Green's functions (typically you first see them in E&M).
 
-    Although not necessary, I think it's rewarding to understand the mathematical foundation of distributions (generalized functions), which give more rigorous meaning to objects like dirac delta, which physicists often sloppily deal with.
+    Although not necessary, I think it's rewarding to understand the mathematical foundation of distributions (generalized functions), which give more rigorous meaning to objects like dirac delta, which physicists often deal with intuitively. 
 
 
-As you can see, that's just about two and a half physics courses (if you were to prepare yourself really thoroughly) and some mathematical background that you can probably even pick up as you go, which I hope doesn't seem as bad as you might have first imagined from a beast like QFT.
+As you can see, that's just about two and a half physics courses (if you were to prepare yourself really thoroughly) and some mathematical background that you can probably even pick up as you go, which I hope doesn't seem as bad as you might have first expected to tackle a beast like QFT.
 
 
 In particular, you do not need to know the following (though it would certainly help):
