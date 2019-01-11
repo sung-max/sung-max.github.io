@@ -16,11 +16,11 @@ I did my undergrad at Cornell University, which provided me a wonderful foundati
 
 ### Personal
 
-I also enjoy learning mathematics and physics, but I don't have much time nowadays.  
-Let me know if you have any advice on learning more efficiently besides time travel.
+I enjoy thinking about mathematics and physics, but I don't have much time nowadays.  
+If you think you can explain renormalization well, let me know, as I'm still quite confused.
 
 On programming: Like many, I _like_ the idea of Haskell (how can one not love monads?).  
-Buuut--I usually code in Python, which is pretty great too.
+But; I usually code in Python, which is pretty great too.
 
 In my free time 
 
