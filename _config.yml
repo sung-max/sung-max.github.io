@@ -17,7 +17,7 @@ title: Sung Min "Sam" Park
 author: Sam Park
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  thoughts on mathematics, physics, computer science, statistics, and in between.
+  thoughts on computer science, math, physics, statistics, and in between.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sung-max.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
