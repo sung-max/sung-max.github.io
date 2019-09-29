@@ -39,8 +39,8 @@ some of the fields below; let me know if you have deeper or more accurate charac
 
 * Statistical Learning Theory
   
-  We have really considered the overparameterized regime, and ruled it out on justification of 
-  (taken for granted) intuitions we had about overfitting and bias-variance tradeoffs. 
+  We have really considered the overparameterized regime, and ruled out interpolating estimators based on
+  (taken for granted) intuitions we had about overfitting and bias-variance tradeoffs. Only in the past few months have people isolated what's now called the "double descent" phenomena, and are beginning to understand it in its simpler settings.
   
   But a bigger problemis that SLT has never really been a prescriptive framework.
   Although some special cases like boosting seem to have been quite heavily studied , it's not clear to me that
@@ -60,7 +60,8 @@ some of the fields below; let me know if you have deeper or more accurate charac
   My impression is that while this is a very mature field, in general people don't have a good grasp on non-linear systems.
   Apparently, this is why weather forecasts are still limited to relatively short horizons.
   
-  There have been some recent developments passing the discrete dynamics to the continuous one, and analyzing the latter.
+  There have been some recent developments passing the discrete dynamics to the continuous one, and analyzing the latter,
+  which seems intuitively reasonable, but don't appear to have that much of a ripple in the community.
  
 * Statistical physics
   
@@ -100,7 +101,7 @@ Here is a quote that says this more eloquently:
 > situation with human brains: we know that if we train a child according to a certain curriculum, she will learn
 > certain skills — but we lack a deep understanding of how her brain accomplishes this" (Lin, Tegmark, Rolnick, 2017).
 
-The huge difference, though, is that we technically do have access to these objects and its entirety.
+The huge difference, though, is that we technically do have access to these objects in their entirety.
 We have all the weights, connections, and we can feed it anything we want. So hopefully that will give us enough
-leverage to glean out its innerworkings.
+leverage to glean out its innerworkings in the future, as we progressively amass more experimental data.
 
