@@ -90,11 +90,15 @@ a lot of it is simulation based (though I don't have a good sense of what their 
 
 ## What about Neuroscience?
 
-Here, the comparison makes the outlook more grim.
-Afterall, if DNNs are indeed working similarly to the neurons in our brains, and given that our understanding of
+Here, the comparison makes the outlook even more grim.
+Afterall, if DNNs are indeed working similarly to their original inspiration (e.g. human brain), and given that our understanding of
 the brain is still hopelessly basic, why should we hope to understand these objects better?
-Peraps we have finally found something that mimics the human intellect, but we will never be able to understand it, just like
-we have failed to do so for our own brains.
+Perhaps we have finally found something that mimics the human intellect, but we will never be able to understand it, just like we have failed to do so for our own brains.
+Here is a quote that says this more eloquently:
+> "...artificial neural networks are understood only at a heuristic level, where we empirically know that
+> certain training protocols employing large data sets will result in excellent performance. This is reminiscent of the
+> situation with human brains: we know that if we train a child according to a certain curriculum, she will learn
+> certain skills — but we lack a deep understanding of how her brain accomplishes this" (Lin, Tegmark, Rolnick, 2017).
 
 The huge difference, though, is that we technically do have access to these objects and its entirety.
 We have all the weights, connections, and we can feed it anything we want. So hopefully that will give us enough
