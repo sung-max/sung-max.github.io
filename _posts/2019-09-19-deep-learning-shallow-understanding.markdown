@@ -84,7 +84,7 @@ At least, to get a sense of what level of understanding we should strive for.
 
 One analogy that seems to come up constantly is aerospace engineering. 
 From what I hear, while we have a very good grasp on its engineering (obviously, since we take commercial flights for granted now), 
-a lot of it is simulation based. 
+a lot of it is simulation based (though I don't have a good sense of what their design process looks like. Probably much much more rigorous than machine learning). So perhaps that's all we can hope for in deep learning too.
 
 -------
 
