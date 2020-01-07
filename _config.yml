@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sung Min "Sam" Park
-author: Sam Park
+title: TEST
+author: SMP
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   thoughts on computer science, math, physics, statistics, and in between.
@@ -28,6 +28,7 @@ markdown: kramdown
 theme: #jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-responsive-image
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
